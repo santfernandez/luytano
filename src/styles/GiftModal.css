@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+C:wght@200;300;400;700&family=Galada&display=swap');
+
+@media (min-width: 600px) {
+    .gift-overlay-modal {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(122, 112, 112, 0.815);
+        z-index: 1000;
+    }
+
+    .gift-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 100px 0 50px 18%;
+        padding: 5px 15px 15px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFF7EB;
+        min-height: 65vh;
+        width: 60vw;
+        border-radius: 20px;
+        z-index: 1000;
+        text-align: center;
+        font-family: 'Galada', cursive;
+    }
+
+    @keyframes pulse {
+        0% {
+            opacity: 0;
+
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .gift-modal-box {
+        text-align: center;
+        max-height: 15vh;
+        width: auto;
+        border-radius: 20px;
+    }
+
+    .gift-modal-titles>h1 {
+        margin: 0;
+    }
+
+    .gift-modal-titles>h2 {
+        font-size: 1.2em;
+    }
+
+    .gift-modal-all-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .gift-modal-info-container {
+        background-color: #FFFBF7;
+        border-radius: 50px;
+        color: black;
+        padding: 0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        min-width: 30vw;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: bold;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .gift-modal-info-container>p {
+        margin: 0;
+        font-size: 1em;
+    }
+
+    .gift-close-modal-button {
+        position: fixed;
+        top: 5%;
+        left: 80%;
+        background-color: #FFF7EB;
+        border-radius: 50px;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5em;
+        min-width: 5vw;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: bold;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 600px) {
+    .gift-overlay-modal {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(122, 112, 112, 0.815);
+        z-index: 1000;
+        animation-name: pulse;
+        animation-duration: 2s;
+    }
+
+    .gift-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 100px 20px 50px 20px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFF7EB;
+        min-height: 55vh;
+        min-width: 80vw;
+        border-radius: 20px;
+        font-family: 'Galada', cursive;
+        z-index: 1000;
+        text-align: center;
+        animation-name: pulse;
+        animation-duration: 2s;
+    }
+
+    @keyframes pulse {
+        0% {
+            opacity: 0;
+
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .gift-modal-box {
+        text-align: center;
+        max-height: 15vh;
+        width: auto;
+        border-radius: 20px;
+        padding-bottom: 10px;
+    }
+
+    .gift-modal-titles>h1 {
+        margin: 0;
+        line-height: 1em;
+    }
+
+    .gift-modal-titles>h2 {
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-size: 1em;
+        padding-top: 10px;
+    }
+
+    .gift-modal-all-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .gift-modal-info-container {
+        background-color: #FFFBF7;
+        border-radius: 50px;
+        color: black;
+        padding: 0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        min-width: 70vw;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: bold;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .gift-modal-info-container>p {
+        margin: 0;
+        font-size: 1em;
+    }
+
+    .gift-modal-greetings {
+        padding-top: 10px;
+        font-size: 1.2em;
+    }
+
+    .gift-close-modal-button {
+        position: fixed;
+        top: 5%;
+        left: 80%;
+        background-color: #FFF7EB;
+        border-radius: 50px;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5em;
+        min-width: 10vw;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: bold;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}

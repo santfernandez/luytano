@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
+@media (min-width: 600px) {
+    .footer-container {
+        background-image: url("http://drive.google.com/uc?export=view&id=1JJyioRfD-QidORssJCRWynl5RTFhSFnr");
+        background-repeat: no-repeat;
+        background-position: right;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-info {
+        min-height: 30vh;
+    }
+
+    .footer-greetings {
+        min-height: 60vh;
+    }
+
+    .footer-greetings-phrase {
+        padding-top: 150px;
+        font-family: 'Galada', cursive;
+        font-size: 2.8em;
+    }
+
+    .footer-lenaria {
+        padding: 10px 35vw;
+        background-color: rgba(237, 196, 140, 0.8);
+    }
+
+    .footer-info>p {
+        background-color: rgba(237, 196, 140, 0.8);
+        text-align: left;
+        margin-bottom: 1em;
+        padding: 20px 0 0 20px;
+        font-size: 2.5em;
+        color: #000;
+    }
+
+    .footer-link:link,
+    .footer-link:visited {
+        color: #c72121;
+        text-decoration: none;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+        background-image: url("http://drive.google.com/uc?export=view&id=1JJyioRfD-QidORssJCRWynl5RTFhSFnr");
+        background-repeat: no-repeat;
+        background-position: right;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-info {
+        min-height: 30vh;
+    }
+
+    .footer-greetings {
+        min-height: 60vh;
+    }
+
+    .footer-greetings-phrase {
+        padding-top: 170px;
+        font-family: 'Galada', cursive;
+        font-size: 2.8em;
+    }
+
+    .footer-lenaria {
+        padding: 10px 90px;
+        background-color: rgba(237, 196, 140, 0.8);
+    }
+
+    .footer-info>p {
+        background-color: rgba(237, 196, 140, 0.8);
+        font-size: 1em;
+        color: #000;
+    }
+
+    .footer-link:link,
+    .footer-link:visited {
+        color: #c72121;
+        text-decoration: none;
+        padding-right: 5px;
+    }
+
+}

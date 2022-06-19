@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@200;300;400;700&family=Galada&display=swap');
+
+@media (min-width: 600px) {
+    .music-overlay-modal {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(122, 112, 112, 0.815);
+        z-index: 1000;
+        animation-name: pulse;
+        animation-duration: 2s;
+
+    }
+
+    .music-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 100px 0 50px 18%;
+        padding: 0 15px 15px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFF7EB;
+        min-height: 60vh;
+        width: 60vw;
+        border-radius: 20px;
+        z-index: 1000;
+        text-align: center;
+        animation-name: pulse;
+        animation-duration: 1.5s;
+
+    }
+
+    @keyframes pulse {
+        0% {
+            opacity: 0;
+
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+    .music-modal-image {
+        text-align: center;
+        max-height: 15vh;
+        width: auto;
+    }
+
+    .music-modal-title {
+        font-family: 'Galada', cursive;
+        font-size: 1.7em;
+        margin: 0;
+    }
+
+    .music-modal-form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: bold;
+    }
+
+    .music-modal-form>p>label>span {
+        font-size: 1.5em;
+    }
+
+    .music-modal-song {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+
+
+    .music-modal-artist {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+        padding: 10px 0 25px 0;
+    }
+
+    .music-modal-song>input {
+        border-radius: 20px;
+        border-style: none;
+        padding: 0.5em 0.5em;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .music-modal-artist>input {
+        border-radius: 20px;
+        border-style: none;
+        padding: 0.5em 0.5em;
+        text-align: center;
+        font-size: 1em;
+    }
+
+
+    .music-close-modal-button {
+        position: fixed;
+        top: 5%;
+        left: 80%;
+        background-color: #FFF7EB;
+        border-radius: 50px;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5em;
+        min-width: 5vw;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: bold;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+
+    .music-form-button {
+        background-color: #F5B45A;
+        border-radius: 50px;
+        color: black;
+        padding: 0.2em 0.2em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5em;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        width: 20vw;
+        font-weight: bold;
+        border-style: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .music-overlay-modal {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(122, 112, 112, 0.815);
+        z-index: 1000;
+        animation-name: pulse;
+        animation-duration: 1.5s;
+    }
+
+    .music-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 100px 20px 50px 20px;
+        padding: 5px 15px 15px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFF7EB;
+        min-height: 55vh;
+        min-width: 80vw;
+        border-radius: 20px;
+        z-index: 1000;
+        text-align: center;
+        animation-name: pulse;
+        animation-duration: 2s;
+    }
+
+    @keyframes pulse {
+        0% {
+            opacity: 0;
+
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+    .music-modal-image {
+        padding-top: 10px;
+        text-align: center;
+        max-height: 12vh;
+        width: auto;
+    }
+
+    .music-modal-title {
+        font-family: 'Galada', cursive;
+        font-size: 1.3em;
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .music-modal-form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: bold;
+        padding-top: 15px;
+    }
+
+
+    .music-modal-song {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+
+    .music-modal-artist {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+
+    .music-modal-song>input {
+        border-radius: 20px;
+        border-style: none;
+        padding: 0.6em 0.6em;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .music-modal-artist>input {
+        border-radius: 20px;
+        border-style: none;
+        padding: 0.6em 0.6em;
+        text-align: center;
+        font-size: 1em;
+    }
+
+
+    .music-close-modal-button {
+        position: fixed;
+        top: 5%;
+        left: 80%;
+        background-color: #FFF7EB;
+        border-radius: 50px;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5em;
+        min-width: 10vw;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: bold;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .music-form-button {
+        background-color: #f6ce97;
+        border-radius: 50px;
+        color: black;
+        padding: 0.2em 0.2em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5em;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        width: 40vw;
+        font-weight: bold;
+        border-style: none;
+    }
+
+}

@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@200;300;400;700&family=Galada&display=swap');
+
+@media (min-width: 600px) {
+    .rsvp-overlay-modal {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(122, 112, 112, 0.815);
+        z-index: 1000;
+        animation-name: pulse;
+        animation-duration: 1.5s;
+
+    }
+
+    .rsvp-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 100px 0 50px 18%;
+        padding: 5px 15px 15px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFF7EB;
+        min-height: 65vh;
+        width: 60vw;
+        border-radius: 20px;
+        z-index: 1000;
+        text-align: center;
+        animation-name: pulse;
+        animation-duration: 2s;
+    }
+
+
+    @keyframes pulse {
+        0% {
+            opacity: 0;
+
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .rsvp-modal-assistance-label {
+        font-family: 'Galada', cursive;
+        font-size: 1.5em;
+    }
+
+    .rsvp-modal-form>p {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .rsvp-modal-assistance-confirmation {
+        border-radius: 20px;
+        border-style: none;
+        padding: 0.6em 0.6em;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .rsvp-modal-fieldset {
+        border-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rsvp-modal-list-legend {
+        font-weight: bold;
+    }
+
+    .rsvp-modal-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0;
+    }
+
+    .rsvp-modal-title {
+        font-family: 'Galada', cursive;
+        margin: 0;
+    }
+
+    .rsvp-close-modal-button {
+        position: fixed;
+        top: 5%;
+        left: 80%;
+        background-color: #FFF7EB;
+        border-radius: 50px;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5em;
+        min-width: 5vw;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: bold;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+
+    .rsvp-modal-list-input {
+        border-radius: 20px;
+        border-style: none;
+        padding: 0.6em 0.6em;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .rsvp-modal-list-li {
+        padding: 10px;
+    }
+
+    .rsvp-form-button {
+        background-color: #f6ce97;
+        border-radius: 50px;
+        color: black;
+        padding: 0.2em 0.2em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5em;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        width: 40vw;
+        font-weight: bold;
+        border-style: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .rsvp-overlay-modal {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(122, 112, 112, 0.815);
+        z-index: 1000;
+        animation-name: pulse;
+        animation-duration: 1.5s;
+    }
+
+    .rsvp-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFF7EB;
+        height: 100%;
+        width: 100%;
+        z-index: 1000;
+        text-align: center;
+        list-style: none;
+        animation-name: pulse;
+        animation-duration: 2s;
+    }
+
+
+    @keyframes pulse {
+        0% {
+            opacity: 0;
+
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+    .rsvp-modal-assistance-label {
+        font-family: 'Galada', cursive;
+        font-size: 1.5em;
+    }
+
+    .rsvp-modal-form>p {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .rsvp-modal-assistance-confirmation {
+        border-radius: 20px;
+        border-style: none;
+        padding: 0.6em 0.6em;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .rsvp-modal-fieldset {
+        border-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rsvp-modal-list-legend {
+        font-weight: bold;
+    }
+
+    .rsvp-modal-list {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .rsvp-modal-title {
+        font-family: 'Galada', cursive;
+        margin: 0;
+    }
+
+    .rsvp-close-modal-button {
+        position: fixed;
+        top: 10%;
+        left: 85%;
+        background-color: #FFF7EB;
+        border-radius: 50px;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5em;
+        min-width: 10vw;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: bold;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .rsvp-modal-list-input {
+        border-radius: 20px;
+        border-style: none;
+        padding: 0.6em 0.6em;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .rsvp-modal-list-li {
+        padding: 10px;
+    }
+
+    .rsvp-form-button {
+        background-color: #f6ce97;
+        border-radius: 50px;
+        color: black;
+        padding: 0.2em 0.2em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5em;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        width: 40vw;
+        font-weight: bold;
+        border-style: none;
+    }
+}

@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@0;1&display=swap');
+
+
+@media (min-width: 600px) {
+
+    .home {
+        background-image: url("http://drive.google.com/uc?export=view&id=1mt7BXAswZ3OphC4_cOkyQ5VOsCssSZgZ");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        animation-duration: 5s;
+        animation-name: zoomIn;
+    }
+
+    .rectangle-background {
+        margin: 100px 0px 50px 0;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(249, 245, 239, 0.65);
+        min-height: 30vh;
+        min-width: 30vw;
+        border-radius: 20px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        animation-duration: 2s;
+        animation-name: zoomIn;
+    }
+
+    @keyframes zoomIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .date-and-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-icon {
+        height: auto;
+        max-width: 5vw;
+        animation-duration: 3s;
+        animation-name: ringsSwing;
+        animation-delay: 2s;
+    }
+
+    @keyframes ringsSwing {
+        0% {
+            transform: rotateZ(0);
+        }
+
+        16% {
+            transform: rotateZ(0.2turn);
+        }
+
+        32% {
+            transform: rotateZ(0);
+        }
+
+        48% {
+            transform: rotateZ(-0.2turn);
+        }
+
+        64% {
+            transform: rotateZ(0);
+        }
+
+        80% {
+            transform: rotateZ(0.2turn);
+        }
+
+        96% {
+            transform: rotateZ(0);
+        }
+
+    }
+
+    .home-date {
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
+        font-size: 1.5em;
+        text-shadow: none;
+        color: #2A4671;
+    }
+
+    .title>h2 {
+        margin: 0px;
+        font-size: 8em;
+        color: #444C68;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 300;
+    }
+
+    .middle-title {
+        margin: 0px;
+        font-size: 4em;
+        color: #444C68;
+        font-family: 'Gentium Book Basic', serif;
+    }
+
+    .quote>p {
+        margin: 0px;
+        padding: 0px 10px;
+        font-size: 3em;
+        color: #000000;
+        font-family: 'Ephesis', cursive;
+    }
+
+    .countdown {
+        min-height: 30vh;
+        color: #2A4671;
+        padding: 20px;
+        background-color: rgba(237, 196, 140, 0.5);
+        width: 96%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .countdown-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .countdown-container>p {
+        font-family: 'Galada', cursive;
+    }
+
+    .countdown-container>span {
+        font-family: 'Encode Sans Condensed', sans-serif;
+    }
+
+
+    .countdown-container-row-a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .countdown-container-row-b {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .number-container {
+        background-color: #FFFBF7;
+        border-radius: 5px;
+        color: #2A4671;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        padding: 0.5em 0.5em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.5em;
+        min-width: 10vw;
+        font-weight: bold;
+        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .number-container>p {
+        margin: 0px;
+        font-family: 'Galada', cursive;
+        font-size: 1.5em;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .home {
+        background-image: url("http://drive.google.com/uc?export=view&id=15SSvSL1rvt94jrj0oLyE35E9O5ITWgLh");
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        animation-duration: 5s;
+        animation-name: zoomIn;
+    }
+
+    .rectangle-background {
+        margin: 20px 0px 20px 0px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(249, 245, 239, 0.65);
+        min-height: 30vh;
+        min-width: 30vh;
+        border-radius: 20px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        animation-duration: 2s;
+        animation-name: zoomIn;
+    }
+
+    @keyframes zoomIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+
+    .date-and-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .home-icon {
+        height: auto;
+        max-width: 10vw;
+        animation-duration: 3s;
+        animation-name: ringsSwing;
+        animation-delay: 2s;
+    }
+
+    @keyframes ringsSwing {
+        0% {
+            transform: rotateZ(0);
+        }
+
+        16% {
+            transform: rotateZ(0.2turn);
+        }
+
+        32% {
+            transform: rotateZ(0);
+        }
+
+        48% {
+            transform: rotateZ(-0.2turn);
+        }
+
+        64% {
+            transform: rotateZ(0);
+        }
+
+        80% {
+            transform: rotateZ(0.2turn);
+        }
+
+        96% {
+            transform: rotateZ(0);
+        }
+
+    }
+
+    .home-date {
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
+        font-size: 0.3em;
+        text-shadow: none;
+        color: #2A4671;
+    }
+
+    .title>h2 {
+        margin: 0px;
+        font-size: 2em;
+        color: #444C68;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 300;
+    }
+
+    .middle-title {
+        margin: 0px;
+        font-size: 0.8em;
+        color: #444C68;
+        font-family: 'Gentium Book Basic', serif;
+    }
+
+    .quote>p {
+        margin: 0px;
+        padding: 50px 10px;
+        font-size: 0.5em;
+        color: #000000;
+        font-family: 'Ephesis', cursive;
+    }
+
+    .countdown {
+        min-height: 25vh;
+        padding: 30px 20px 20px 20px;
+        background-color: rgba(237, 196, 140, 0.8);
+        width: 90%;
+    }
+
+    .countdown-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+
+    .countdown-container-row-a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px
+    }
+
+    .countdown-container-row-b {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px
+    }
+
+    .number-container {
+        background-color: #FFFBF7;
+        border-radius: 5px;
+        color: #2A4671;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        padding: 0.3em 0.3em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 0.5em;
+        min-width: 20vw;
+        font-weight: bold;
+        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .number-container>p {
+        margin: 0px;
+        font-family: 'Galada', cursive;
+        font-size: 1.5em;
+    }
+}

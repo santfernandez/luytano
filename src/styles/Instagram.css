@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Encode+Sans+Condensed:wght@200;300;400;700&family=Galada&display=swap');
+
+@media (min-width: 600px) {
+
+    .instagram-section-phrase>p {
+        font-family: 'Galada', cursive;
+        font-weight: bold;
+        font-size: 3em;
+        color: #2A4671;
+    }
+
+    .instagram-section-hashtag {
+        font-family: 'Dela Gothic One', cursive;
+        font-size: 3em;
+    }
+
+    .instagram-section-image>img {
+        height: auto;
+        max-width: 15vw;
+    }
+
+    .instagram-section-hashtag>p {
+        margin-top: 0;
+    }
+
+    .instagram-section-button {
+        background-color: #f6ce97;
+        border-radius: 50px;
+        color: black;
+        padding: 0.2em 0em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 3em;
+        min-width: 50vw;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: bold;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .instagram-section-button>a>p {
+        margin: 0;
+    }
+
+    .instagram-link:link,
+    .instagram-link:visited {
+        color: #000;
+        text-decoration: none;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .instagram-section-phrase>p {
+        font-family: 'Galada', cursive;
+        font-weight: bold;
+        font-size: 1.8em;
+        padding: 25px 40px 0 40px;
+        color: #2A4671;
+    }
+
+    .instagram-section-image>img {
+        height: auto;
+        max-width: 20vw;
+    }
+
+    .party-dresscode {
+        width: 30vw;
+    }
+
+    .instagram-section-hashtag {
+        font-family: 'Dela Gothic One', cursive;
+        font-size: 2em;
+    }
+
+    .instagram-section-hashtag>p {
+        margin-top: 0;
+        color: #2A4671;
+    }
+
+    .instagram-section-button {
+        background-color: #f6ce97;
+        border-radius: 50px;
+        color: black;
+        padding: 0.5em 0.4em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5em;
+        min-width: 60vw;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: bold;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .instagram-section-button>a>p {
+        margin: 0;
+    }
+
+    .instagram-link:link,
+    .instagram-link:visited {
+        color: #000;
+        text-decoration: none;
+    }
+
+
+}

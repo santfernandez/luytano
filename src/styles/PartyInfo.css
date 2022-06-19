@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@200;300;400;700&family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+
+@media (min-width: 600px) {
+    .party-info {
+        background-image: url("http://drive.google.com/uc?export=view&id=1hbs2Os0afN3kosR0-GyguNGVSpP6bpdl");
+        background-repeat: no-repeat;
+        background-size: 50vw;
+        background-position: left;
+        background-color: #FFE2CD;
+        font-family: 'Galada', cursive;
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        padding: 70px 0;
+    }
+
+    .party-info-title {
+        margin: 0px;
+        padding-bottom: 50px;
+        color: #2A4671;
+    }
+
+    .party-info-b {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .party-info-title {
+        font-family: 'Galada', cursive;
+        font-size: 4.5em;
+        order: 1;
+    }
+
+    .party-info-subtitle {
+        font-family: 'Dancing Script', cursive;
+        font-weight: 300;
+        font-size: 3em;
+        margin: 0px;
+        padding: 20px;
+        color: #2A4671;
+    }
+
+    .party-info-row-a {
+        display: flex;
+        order: 1;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .party-info-row-b {
+        display: flex;
+        order: 2;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .party-info-image>img {
+        height: auto;
+        max-width: 10vw;
+    }
+
+    .party-info-b>div>div {
+        width: 20vw;
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .party-info-button {
+        background-color: #4E5975;
+        border-radius: 40px;
+        color: #FFF;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.2em;
+        width: 100%;
+        font-weight: bold;
+        border-style: none;
+        cursor: pointer;
+        min-height: 10vh;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+}
+
+@media (max-width: 600px) {
+    .party-info {
+        background-image: url("http://drive.google.com/uc?export=view&id=1hbs2Os0afN3kosR0-GyguNGVSpP6bpdl");
+        background-repeat: no-repeat;
+        background-size: 30vw;
+        background-color: #FFE2CD;
+        font-family: 'Galada', cursive;
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        margin: 0px;
+        font-size: 1.5em;
+    }
+
+    .party-info-title {
+        font-family: 'Galada', cursive;
+        font-size: 2.5em;
+        order: 1;
+        color: #2A4671;
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .party-info-subtitle {
+        font-family: 'Dancing Script', cursive;
+        font-weight: 300;
+        font-size: 2em;
+        margin: 0px;
+        padding: 0 0 20px 0;
+        color: #2A4671;
+    }
+
+    .party-info-row-a {
+        display: flex;
+        order: 2;
+        justify-content: space-evenly;
+        padding: 20px 25px;
+    }
+
+    .party-info-row-b {
+        display: flex;
+        order: 3;
+        justify-content: space-evenly;
+        padding: 20px 25px 40px 25px;
+    }
+
+    .party-info-button {
+        max-width: 30vw;
+        border-radius: 50px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .party-info-b>div>div {
+        display: flex;
+        width: 50vw;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .party-info-button {
+        background-color: #4E5975;
+        border-radius: 40px;
+        color: #FFF;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        padding: 0.5em;
+        font-size: 1em;
+        width: 50vw;
+        font-weight: bold;
+        border-style: none;
+        min-height: 10vh;
+    }
+
+    .party-info-image>img {
+        height: auto;
+        max-width: 20vw;
+    }
+}
